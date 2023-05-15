@@ -17,6 +17,9 @@ module.exports = {
       minHeight: {
         custom: "300px",
       },
+      borderRadius: {
+        "50%": "50%",
+      },
     },
   },
   plugins: [],

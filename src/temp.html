@@ -10,18 +10,22 @@
     <main id="content" class="flex h-screen justify-center items-center">
       <section
         id="adviceCard"
-        class="grid justify-center text-center w-9/12 max-w-lg bg-neutral-darkGrayishBlue min-h-custom rounded-2xl p-10"
+        class="relative text-center w-9/12 max-w-lg bg-neutral-darkGrayishBlue min-h-custom rounded-2xl p-10"
       >
         <h1 id="adviceHeading" class="text-primary-neonGreen">
           ADVICE <span id="adviceNumber">#117</span>
         </h1>
 
-        <p id="adviceQuotes" class="text-xl text-white max-w-xs">
+        <p id="adviceQuotes" class="text-2xl text-white my-8">
           "It is easy to sit up and take notice, what's difficult is getting up
           and taking action"
         </p>
 
-        <section id="line">.............</section>
+        <section id="pattern-divider"></section>
+        <button
+          id="adviceGeneratorBtn"
+          class="absolute left-2/4 -translate-x-2/4 -bottom-7 bg-primary-neonGreen p-4 rounded-50%"
+        ></button>
       </section>
     </main>
   </body>

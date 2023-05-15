@@ -5,6 +5,7 @@ module.exports = {
   mode: "development",
   entry: {
     main: path.resolve(__dirname, "src/main.js"),
+    generateImg: path.resolve(__dirname, "src/generateImg.js"),
   },
   output: {
     path: path.resolve(__dirname, "dist"),
