@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#adviceGeneratorBtn {
+  transition: background-color 500ms, box-shadow 500ms;
+}
+
+#adviceGeneratorBtn:hover {
+  background-color: hsl(149, 84%, 54%);
+
+  box-shadow: 1px -1px 30px 3px hsl(149, 84%, 54%);
+}

@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         primary: {
           lightCyan: "hsl(193, 38%, 86%)",
-          neonGreen: "hsl(150, 100%, 66%)",
+          neonGreen: "hsl(149, 84%, 54%)",
         },
         neutral: {
           grayishBlue: "hsl(217, 19%, 38%)",
