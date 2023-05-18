@@ -11,3 +11,7 @@
 
   box-shadow: 1px -1px 30px 3px hsl(149, 84%, 54%);
 }
+
+#adviceGeneratorBtn > img {
+  pointer-events: none;
+}

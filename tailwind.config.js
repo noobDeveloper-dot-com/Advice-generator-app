@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       minHeight: {
-        custom: "300px",
+        custom: "100px",
       },
       borderRadius: {
         "50%": "50%",

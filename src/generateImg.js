@@ -1,8 +1,8 @@
-import { PATTERN_DIVIDER, GENERATOR_BUTTON } from "./main";
 import patternDivider from "./images/pattern-divider-desktop.svg";
 import diceIcon from "./images/icon-dice.svg";
 
-console.log(PATTERN_DIVIDER);
+const PATTERN_DIVIDER = document.querySelector("#pattern-divider");
+const GENERATOR_BUTTON = document.querySelector("#adviceGeneratorBtn");
 
 function imgGenerator(source, description) {
   const img = new Image();
