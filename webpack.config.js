@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: {
     main: path.resolve(__dirname, "src/main.js"),
     generateImg: path.resolve(__dirname, "src/generateImg.js"),
